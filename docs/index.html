@@ -69,18 +69,18 @@
                 <img class="logo" src="public/images/logo.png">
                 Planificateur
             </div>
-            <a href="#Besoin" class="item">Besoin</a>
-            <a href="#CasType" class="item">Un cas type</a>
-            <a href="#Futur" class="item">Le futur</a>
-            <a href="#Recommandations" class="item">Recommandations</a>
+            <a href="#Besoin-nav" class="item">Besoin</a>
+            <a href="#CasType-nav" class="item">Un cas type</a>
+            <a href="#Futur-nav" class="item">Le futur</a>
+            <a href="#Recommandations-nav" class="item">Recommandations</a>
             <div class="ui right floated dropdown item">
                 Prototypes <i class="dropdown icon"></i>
                 <div class="menu">
-                    <a href="#Prototype1" class="item">#1 : Contenu d'horaire</a>
-                    <a href="#Prototype2" class="item">#2 : Ordre des horaires</a>
-                    <a href="#Prototype3-4-5" class="item">#3 : Planificateur d'horaire</a>
-                    <a href="#Prototype3-4-5" class="item">#4 : Heuristiques d'horaire</a>
-                    <a href="#Prototype3-4-5" class="item">#5 : Multi horaires</a>
+                    <a href="#Prototype1-nav" class="item">#1 : Contenu d'horaire</a>
+                    <a href="#Prototype2-nav" class="item">#2 : Ordre des horaires</a>
+                    <a href="#Prototype3-4-5-nav" class="item">#3 : Planificateur d'horaire</a>
+                    <a href="#Prototype3-4-5-nav" class="item">#4 : Heuristiques d'horaire</a>
+                    <a href="#Prototype3-4-5-nav" class="item">#5 : Multi horaires</a>
                 </div>
             </div>
         </div>
@@ -108,7 +108,7 @@
                 <a class="item" href="https://github.com/Thoorium/PlanificateurSeanceContenuCours" target="_blank"><i class="github icon"></i> Explorer</a>
             </div>
         </div>
-        <p>Plusieurs prototypes d’un outil ont été développés au courant du projet. Chaque prototype est spécialisé dans une fonctionnalité ou un besoin. Les prototypes ont été développés à l’aide de google apps for education et modules complémentaires personnalisés. L’utilisation des outils de Google ont permis un développement rapide et d’expérimenter des fonctionnalités et heuristiques. Une explication en détails de chaque prototypes sera disponible dans la section sur les prototypes dans ce document. De plus, les prototypes sont disponibles pour vos expérimentations en suivant le lien situé à la gauche de cette section.</p>
+        <p id="Besoin-nav">Plusieurs prototypes d’un outil ont été développés au courant du projet. Chaque prototype est spécialisé dans une fonctionnalité ou un besoin. Les prototypes ont été développés à l’aide de google apps for education et modules complémentaires personnalisés. L’utilisation des outils de Google ont permis un développement rapide et d’expérimenter des fonctionnalités et heuristiques. Une explication en détails de chaque prototypes sera disponible dans la section sur les prototypes dans ce document. De plus, les prototypes sont disponibles pour vos expérimentations en suivant le lien situé à la gauche de cette section.</pid="Besoin">
         <h1 id="Besoin">Besoin</h1>
         <p>Au début de chaque session, le professeur prépare son plan de cours en suivant le calendrier universitaire et sa planification de la matière. La création de ce plan peut prendre de 30 minutes à plusieurs heures à chaque session.</p>
         <p>Ce temps varie selon le nombre de groupe-cours que le professeur enseigne et la quantité d’information qui sera disponible dans son plan de cours.</p>
@@ -128,7 +128,7 @@
         <p>&nbsp;</p>
         <a data-fancybox="gallery5" href="public/images/wireframe/plan5.png"><img class="ui medium left floated image" data-src="public/images/wireframe/plan5.png"></a>
 
-        <p>Présentation complètes des séances de cours + laboratoires sous la forme d'une grille excel (LOG330). Ce type de présentation représente l'entièreté de l'information disponible pour la session, des séances de cours aux laboratoires. L'information inclut la date des séances, la matière vue en classe, les évaluations, le poids des évaluations, la date des quiz à faire hors-classe, les laboratoires et le poids des laboratoires.</p>
+        <p id="CasType-nav">Présentation complètes des séances de cours + laboratoires sous la forme d'une grille excel (LOG330). Ce type de présentation représente l'entièreté de l'information disponible pour la session, des séances de cours aux laboratoires. L'information inclut la date des séances, la matière vue en classe, les évaluations, le poids des évaluations, la date des quiz à faire hors-classe, les laboratoires et le poids des laboratoires.</p>
 
         <h1 id="CasType">Présentation d’un cas</h1>
         <h2>Le cas</h2>
@@ -209,7 +209,7 @@
         </div>
         <h4>Dédoublement des TP</h4>
         <p>À la base, le dédoublement consiste en la séparation d'un groupe-cours en deux sous-groupes afin d'accommoder le TP ou laboratoire.</p>
-        <div class="ui grid">
+        <div class="ui grid" id="Futur-nav">
             <div class="centered row">
                 <div class="seven wide column">
                     <a data-fancybox="heuristique" href="public/images/wireframe/heuristique-dedoublement-tp.png"><img class="ui large floated image" data-src="public/images/wireframe/heuristique-dedoublement-tp.png"></a>
@@ -226,22 +226,23 @@
         <p>Vous pouvez observer que les numéros de séances sont connus à l'avance et ainsi rends la tâche de planification plus facile. Grâce à cette information, il est possible de créer un outil qui prend en compte la matière du cours et prépare une planification riche en information.</p>
         <p>L’outils en plus d’offrir rapidement un plan de la session permet d’unifier le style de planification avec un format commun et concret pour tous les cours. La quantité d’information à afficher reste à la discrétion de l’enseignant.</p>
         <p>Avec un tel outil, il est possible d’avoir une vue d’ensemble des groupes-cours et de préparer plus efficacement la session.</p>
-        <h1 id="Prototypes">Présentation des prototypes</h1>
+        
+        <h1 id="Prototype1-nav">Présentation des prototypes</h1>
         <p>Afin de tester des stratégies de planification, un prototype a été créé avec Google Apps Scripts. Ce prototype fonctionne en tant qu’extension pour les feuilles de calcul.</p>
         <h3 id="Prototype1">Prototype #1</h3>
         <a data-fancybox="prototype1" href="public/images/wireframe/prototype1b.png"><img class="ui small left floated image" data-src="public/images/wireframe/prototype1b.png"></a>
         <p>Étant le tout premier prototype, l'étendue des fonctionnalités sont limitées. L'objectif principal de ce prototype était de devenir familier avec les outils de google apps scripts et le langage lui-même. La fonctionnalité qui a été implémentée est l'importation/exportation des horaires en provenance de soi l'ÉTS ou un calendrier google.</p>
         <p>Une fonctionnalité qui permet d'importer l'horaire du cours via le portail enseignant est aussi disponible dans ce prototype. Il suffit de choisir l'année, la session (Automne, Été, Hiver) et d'entrer le sigle du cours. Si l'information est invalide (Cours inexistant, non-enseigné lors de cette période de temps), l'application fournie un message d'erreur significatif.</p>
-        <p>Une fois l'information importée, il est possible de modifier le contenu du cours et d'ajouter l'information désirée. Une fois complétée, il est possible d'exporter vers un calendrier google ou de synchroniser un calendrier existant avec l'information de la grille.</p>
+        <p id="Prototype2-nav">Une fois l'information importée, il est possible de modifier le contenu du cours et d'ajouter l'information désirée. Une fois complétée, il est possible d'exporter vers un calendrier google ou de synchroniser un calendrier existant avec l'information de la grille.</p>
         <p>&nbsp;</p>
         <h3 id="Prototype2">Prototype #2</h3>
         <a data-fancybox="prototype2" href="public/images/wireframe/prototype2.png"><img class="ui small right floated image" data-src="public/images/wireframe/prototype2.png"></a>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        <p id="Prototype3-4-5-nav">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</pid="Prototype3-4-5">
         <p>&nbsp;</p>
         <h3 id="Prototype3-4-5">Prototype #3-4-5</h3>
         <a data-fancybox="prototype3" href="public/images/wireframe/prototype3-4-5.png"><img class="ui small left floated image" data-src="public/images/wireframe/prototype3-4-5.png"></a>
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        <p id="Recommandations-nav">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
 
         <h1 id="Recommandations">Recommandations</h1>
         <h3>Journée de reprise</h3>
