@@ -54,3 +54,10 @@
 a:active, img:active{
     border:none;
 }
+h1{
+    padding-top:70px;
+}
+
+h3.prototype {
+    padding-top: 70px;
+}
